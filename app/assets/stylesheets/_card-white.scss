@@ -9,11 +9,18 @@
 h2 {
   text-align: center;
   margin-top: 10px;
+  font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Gluten', cursive;
+font-family: 'Roboto', sans-serif;
 }
 
 p {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Gluten', cursive;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -25,9 +32,9 @@ p {
   }
 
 .btn-light {
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F0D290;
+    margin-top: 50px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    background: linear-gradient(#F0E9D2, #E8E8E8);
  }
