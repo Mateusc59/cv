@@ -93,21 +93,23 @@ i:hover {
   background-position: 50% 50%;
 }
 
-.menu__item {
+.menu__item  {
   margin-top: 20px;
   font-weight: 600;
   color: white;
   text-decoration: none;
-  background-color: #649BC2;
+  background-color:  #4E7BB4;
   transition: background-color 0.2s;
   transition: color 0.2s;
   padding: 10px 20px;
   border: 2px solid #A1C6DF;
-  margin-left: 90px;
+  margin-left: 245px;
   margin-top: 30px;
 }
 
 .text a:hover, .text a:active {
-  background-color: white;
-  color: #649BC2;
+  background-color: #649BC2;
+  color: whitesmoke;
+
+
 }
