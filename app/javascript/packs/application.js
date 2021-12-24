@@ -6,10 +6,11 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "channels"
-import { loadDynamicBannerText } from '../components/banner';
 
 Rails.start()
 Turbolinks.start()
+
+import { loadDynamicBannerText } from '../components/banner';
 
 
 document.addEventListener('turbolinks:load', () => {
