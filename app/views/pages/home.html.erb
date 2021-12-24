@@ -4,27 +4,50 @@
     <title>My profile</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
   </head>
+
   <body>
-    <div class="container">
-      <div class="card-white">
+  <div class="navb">
+  <div class="nav-header">
+    <div class="nav-title">
+      JoGeek
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav-links">
+    <a href="//github.io/jo_geek" target="_blank">Github</a>
+    <a href="http://stackoverflow.com/users/4084003/" target="_blank">Stackoverflow</a>
+    <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">LinkedIn</a>
+    <a href="https://codepen.io/jo_Geek/" target="_blank">Codepen</a>
+    <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">JsFiddle</a>
+  </div>
+</div>
+  <div class="container">
+      <div class="banner">
         <div class="photo">
         <h2><span id="banner-typed-text"></span></h2>
       <%= image_tag "profile.png", class: "img-circle" %>
-<p>"I love Front End, UX/UI Design, web-development, learning is one of my best quality. I'm a big fan of all kind of sports! 🏋🏻‍♂️"</p>
+      <p>"I love Front End, UX/UI Design, web-development, learning is one of my best quality. I'm a big fan of all kind of sports! 🏋🏻‍♂️"</p>
   <%= link_to "More about me", about_path, class: "btn btn-light" %>
      </div>
     </div>
+
   <div class="footer">
-    <div class="footer-links">
-    <a href="https://github.com/Mateusc59"><i class="fab fa-github"></i></a>
-    <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/mathieu.hollande.75"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/in/mathieu-hollande/"><i class="fab fa-linkedin"></i></a>
+      <div class="footer-links">
+        <a href="https://github.com/Mateusc59"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/mathieu.hollande.75"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/mathieu-hollande/"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
   </div>
-</div>
 
   </body>
 </html>
