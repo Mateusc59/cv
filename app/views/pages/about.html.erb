@@ -1,4 +1,32 @@
 
+<div class="navb">
+  <div class="nav-header">
+    <div class="nav-title">
+      <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <%= image_tag "profile.png", class: "circle" %>
+    </div>
+    <div class="flip-box-back">
+      <%= image_tag "im.jpg", class: "backcircle" %>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav-links">
+    <%= link_to "Home", root_path, class: "navbut" %>
+    <%= link_to "About me", about_path, class: "navbut" %>
+    <%= link_to "Contact", contact_path, class: "navbut" %>
+  </div>
+
 
 <div class="code-editor">
 			<span class="control"></span>
