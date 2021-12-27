@@ -27,20 +27,24 @@
     <%= link_to "Contact", contact_path, class: "navbut" %>
   </div>
 </div>
-<div class="ban" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+<div class="ban">
   <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-    <p>Change your life and learn to code at one of our campuses around the world.</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
+
+    <a class="btn btn-primary" href="#section"> Discover ⬇ </a>
+
   </div>
 </div>
   <div class="container">
+        <div id="section"></div>
+
       <div class="banner">
         <div class="photo">
         <h2><span id="banner-typed-text"></span></h2>
       <%= image_tag "ng.png", class: "img-circle" %>
       <p>"I love Front End, UX/UI Design, web-development, learning is one of my best quality. I'm a big fan of all kind of sports! 🏋🏻‍♂️"</p>
+
   <%= link_to "More about me", about_path, class: "btn btn-light" %>
+
      </div>
     </div>
 <div class="row justify-content-around">
@@ -120,6 +124,8 @@ I discovered coding and since then I want to make it my dream job!</h6>
       </div>
     </div>
 </div>
+
+  </body>
   <div class="footer">
       <div class="footer-links">
         <a href="https://github.com/Mateusc59"><i class="fab fa-github"></i></a>
@@ -129,6 +135,4 @@ I discovered coding and since then I want to make it my dream job!</h6>
         </div>
     </div>
   </div>
-
-  </body>
 </html>

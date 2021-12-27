@@ -56,9 +56,10 @@ p {
   }
 
   .ban {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(/assets/can.jpg);
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 290px 0;
 }
 
 .ban h1 {
@@ -75,3 +76,17 @@ p {
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.btn-primary{
+    background-color: #09BD99;
+    border: transparent;
+    justify-content: flex-start;
+    margin-left: 420px;
+    margin-bottom: 160px;
+    width: 250px;
+  }
+
+.btn-primary:hover{
+      background-color: #4A5376;
+opacity: 0.7;
+ }
