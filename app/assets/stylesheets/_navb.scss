@@ -139,3 +139,94 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
+.navbcontact {
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  margin-bottom:auto;
+}
+
+.navbcontact > .nav-header {
+  display: inline;
+}
+
+.navbcontact > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.navbcontact > .nav-btn {
+  display: none;
+}
+
+.navbcontact > .nav-links {
+  display: inline;
+  font-size: 18px;
+}
+
+.navbcontact > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbcontact > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbcontact > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .navbcontact > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navbcontact > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navbcontact > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navbcontact > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .navbcontact > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #ECEEFF;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .navbcontact > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .navbcontact > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .navbcontact > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
