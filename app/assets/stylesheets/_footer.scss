@@ -1,12 +1,15 @@
 .footer {
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   background-color: white;
+  box-shadow: 2px 2px 2px grey;
 }
 .footer-links {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 56px;
 }
 .footer-links a {
   color: black;
