@@ -1,104 +1,119 @@
-
-<div class="navb">
-  <div class="nav-header">
-    <div class="nav-title">
-      <div class="flip-box">
-  <div class="flip-box-inner">
-    <div class="flip-box-front">
-      <%= image_tag "profile.png", class: "circle" %>
-    </div>
-    <div class="flip-box-back">
-      <%= image_tag "ima.png", class: "backcircle" %>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-
-  <div class="nav-links">
-    <%= link_to "Home", root_path, class: "navbut" %>
-    <%= link_to "About me", about_path, class: "navbut" %>
-    <%= link_to "Contact", contact_path, class: "navbut" %>
-  </div>
+<body>
 
 
-<div class="code-editor">
-			<span class="control"></span>
-			<span class="control"></span>
-			<span class="control"></span>
-			<pre class="line-numbers language-css">				<code class=" language-css">
+          <div class="navb">
+          <div class="nav-header">
+            <div class="nav-title">
+              <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <%= image_tag "profile.png", class: "circle" %>
+            </div>
+            <div class="flip-box-back">
+              <%= image_tag "ima.png", class: "backcircle" %>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+            </label>
+          </div>
 
-<span class="token comment" spellcheck="true">/*
-   My curriculum vitae
-   you can contact me at mathewhollande@gmail.com
-   Or by phone: 06-32-37-70-82 / 778-381-9118
-     <%= link_to "Contact me", contact_path, class: "button1" %>
-*/</span>
+          <div class="nav-links">
+            <%= link_to "Home", root_path, class: "navbut" %>
+            <%= link_to "About me", about_path, class: "navbut" %>
+            <%= link_to "Contact", contact_path, class: "navbut" %>
+          </div>
+        </div>
 
+        <div class="code-editor">
+              <span class="control"></span>
+              <span class="control"></span>
+              <span class="control"></span>
+              <pre class="line-numbers language-css">				<code class=" language-css">
 
-<span class="token selector">#studies</span><span class="token punctuation">{</span>
-
-  <span class="token selector">2021</span><span class="token punctuation">{</span>
-    <span class="token property">Bootcamp Le wagon 🚃</span><span class="token punctuation">:</span> Développeur web<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-  <span class="token selector">2018</span><span class="token punctuation">{</span>
-    <span class="token property">Social diploma </span><span class="token punctuation">:</span>Lille<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token selector">#skills </span><span class="token punctuation">{</span>
-
-  <span class="token property">rails</span><span class="token punctuation">:</span> 80%<span class="token punctuation">;</span>
-  <span class="token property">Javascript</span><span class="token punctuation">:</span> In progress<span class="token punctuation">;</span>
-  <span class="token property">css</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
-  <span class="token property">html</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
-  <span class="token property">UX</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token selector">#projects</span><span class="token punctuation">{</span>
-
-  <span class="token selector">.Bike-Away.live</span><span class="token punctuation">{</span>
-    <span class="token property">Rails</span><span class="token punctuation">:</span> <span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "http://www.bikeaway.live/", "http://www.bikeaway.live/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-  <span class="token selector">.VanYourLife</span><span class="token punctuation">{</span>
-    <span class="token property">Rails</span><span class="token punctuation">:</span> 7 commerce<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "https://vanyourlife.herokuapp.com/", "https://vanyourlife.herokuapp.com/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
-    &amp;<span class="token selector">:before</span><span class="token punctuation">{</span>
-      <span class="token property">display</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-  <span class="token punctuation">}</span>
-  <span class="token selector">.My Online CV</span><span class="token punctuation">{</span>
-    <span class="token property">Rails</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "http://www.mathieuhollande.com/", "http://www.mathieuhollande.com/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
-    <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>//
-      &amp;<span class="token selector">;:before</span><span class="token punctuation">{</span>
-        <span class="token url"></span><span class="token punctuation">;</span>
-      <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token selector">#jobs</span><span class="token punctuation">{</span>
-  <span class="token selector">.2021</span><span class="token punctuation">{</span>
-    <span class="token property">Représentant des ventes RedBull-Montréal,Canada </span><span class="token punctuation">:</span>absolute<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-  <span class="token selector">.2020</span><span class="token punctuation">{</span>
-    <span class="token property">Représentant des ventes,Calgary,Canada </span><span class="token punctuation">:</span><span class="token string"></span><span class="token punctuation">;</span>
-    <span class="token property">company</span><span class="token punctuation">:</span><span class="token string"></span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-  <%= link_to "Contact me", contact_path, class: "button1" %>
-<span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+        <span class="token comment" spellcheck="true">/*
+          My curriculum vitae
+          you can contact me at mathewhollande@gmail.com
+          Or by phone: 06-32-37-70-82 / 778-381-9118
+            <%= link_to "Contact me", contact_path, class: "button1" %>
+        */</span>
 
 
-</div>
+        <span class="token selector">#studies</span><span class="token punctuation">{</span>
+
+          <span class="token selector">2021</span><span class="token punctuation">{</span>
+            <span class="token property">Bootcamp Le wagon 🚃</span><span class="token punctuation">:</span> Développeur web<span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+          <span class="token selector">2018</span><span class="token punctuation">{</span>
+            <span class="token property">Social diploma </span><span class="token punctuation">:</span>Lille<span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">#skills </span><span class="token punctuation">{</span>
+
+          <span class="token property">rails</span><span class="token punctuation">:</span> 80%<span class="token punctuation">;</span>
+          <span class="token property">Javascript</span><span class="token punctuation">:</span> In progress<span class="token punctuation">;</span>
+          <span class="token property">css</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
+          <span class="token property">html</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
+          <span class="token property">UX</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">#projects</span><span class="token punctuation">{</span>
+
+          <span class="token selector">.Bike-Away.live</span><span class="token punctuation">{</span>
+            <span class="token property">Rails</span><span class="token punctuation">:</span> <span class="token punctuation">;</span>
+            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "http://www.bikeaway.live/", "http://www.bikeaway.live/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+          <span class="token selector">.VanYourLife</span><span class="token punctuation">{</span>
+            <span class="token property">Rails</span><span class="token punctuation">:</span> 7 commerce<span class="token punctuation">;</span>
+            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "https://vanyourlife.herokuapp.com/", "https://vanyourlife.herokuapp.com/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
+            &amp;<span class="token selector">:before</span><span class="token punctuation">{</span>
+              <span class="token property">display</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+
+          <span class="token punctuation">}</span>
+          <span class="token selector">.My Online CV</span><span class="token punctuation">{</span>
+            <span class="token property">Rails</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
+            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><%= link_to "http://www.mathieuhollande.com/", "http://www.mathieuhollande.com/", class: "btn btn-link" %></span><span class="token punctuation">;</span>
+            <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>//
+              &amp;<span class="token selector">;:before</span><span class="token punctuation">{</span>
+                <span class="token url"></span><span class="token punctuation">;</span>
+              <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">#jobs</span><span class="token punctuation">{</span>
+          <span class="token selector">.2021</span><span class="token punctuation">{</span>
+            <span class="token property">Représentant des ventes RedBull-Montréal,Canada </span><span class="token punctuation">:</span>absolute<span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+          <span class="token selector">.2020</span><span class="token punctuation">{</span>
+            <span class="token property">Représentant des ventes,Calgary,Canada </span><span class="token punctuation">:</span><span class="token string"></span><span class="token punctuation">;</span>
+            <span class="token property">company</span><span class="token punctuation">:</span><span class="token string"></span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+          <%= link_to "Contact me", contact_path, class: "button1" %>
+        <span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+      </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
