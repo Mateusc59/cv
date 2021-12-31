@@ -1,4 +1,4 @@
 meta_product_name: "Mathieu Hollande - My Frontend developer portfolio"
-meta_title: "Mathieu Hollande -Welcome to my Frontend developer portfolio !"
-meta_description: "Hello !I'm glad to welcome you in my website, here you can learn all you need about me! Can't wait to hear from you :) "
-meta_image: "can.png" # should exist in `app/assets/images/`
+meta_title: "Mathieu Hollande: Welcome to my Frontend developer portfolio !"
+meta_description: "Hello !I'm glad to see you on my website. Here you can learn all you need about me! Can't wait to hear from you "
+meta_image: "can.jpg" # should exist in `app/assets/images/`
