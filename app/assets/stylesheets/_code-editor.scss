@@ -1,9 +1,6 @@
 
-body {
-	background: #e16a3f;
-  background: #1abc9c;
-  background:#2ecc71;
-}
+
+
 
 .code-editor:before,
 .code-editor:after,
@@ -82,16 +79,7 @@ body {
 	background-color: #97c38a;
 }
 
-/* -- iPad Screen -- */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-	.code-editor {
-   		width: 500px;
-	}
 
-	.code-editor:before {
-		width: 500px;
-	}
-}
 
 /* -- iPhone Screen -- */
 @media only screen and (max-width: 479px) {
