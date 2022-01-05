@@ -1,9 +1,10 @@
+
 .banner {
   margin-top: 30px;
   padding: 50px;
   border-radius: 5px;
-  background: #FDFDF6;
-  box-shadow: 2px 2px 2px grey;
+  background: transparent;
+  border: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +18,7 @@ h2 {
   margin-left: 90px;
   font-family: 'arial', sans-serif;
   font-weight: bold;
-  color: #4A5376;
+  color: white;
 }
 
 p {
@@ -26,7 +27,7 @@ p {
   margin-bottom: 51px;
   font-family: Georgia, serif;
   font-weight: bold;
-  color: grey ;
+  color: white ;
   max-width: 405px;
   height: 51px;
 }
@@ -44,8 +45,19 @@ p {
     display: block;
     width: 200px;
     color: #4A5376;
-     box-shadow: 0px 0px 4px rgba(74, 83, 118, .4);
+   border: transparent;
+    box-shadow: 0px 5px 41px rgba(255, 255, 255, 1.5);
 
+font-family: 'Rokkitt', serif;
+
+
+  }
+
+  .btn-light:hover{
+        color: white;
+        background-color: #4A5376;
+        opacity: 0.6;
+        border: transparent;
   }
 
   .ban {
@@ -53,6 +65,7 @@ p {
   background-size: cover;
   background-position: center;
   padding: 369px 0;
+
 }
 
 
@@ -71,12 +84,14 @@ p {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+
+.discover{
+text-align: center;
+}
+
 .btn-primary{
     background-color: #09BD99;
     border: transparent;
-    justify-content: flex-start;
-    margin-left: 420px;
-    margin-bottom: 160px;
     width: 250px;
   }
 
@@ -87,7 +102,12 @@ opacity: 0.7;
 
  h6{
 color:#191A19;
-font-family: "Gill Sans", sans-serif;
-font-weight:520 ;
+font-weight:50 ;
 text-align: center;
- }
+margin: 5px;
+font-family: 'Palanquin Dark', sans-serif;
+}
+
+h5{
+  margin-top: 10px;
+}
