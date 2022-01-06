@@ -13,25 +13,6 @@
 
 
 
-h2 {
-  margin-top: 10px;
-  margin-left: 90px;
-  font-family: 'arial', sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-p {
-  text-align: center;
-  margin-top: 51px;
-  margin-bottom: 51px;
-  font-family: Georgia, serif;
-  font-weight: bold;
-  color: white ;
-  max-width: 405px;
-  height: 51px;
-}
-
 .img-circle {
     margin-top: 30px;
     display: block;
@@ -96,8 +77,8 @@ text-align: center;
   }
 
 .btn-primary:hover{
-      background-color: #4A5376;
-opacity: 0.7;
+    background-color: #4A5376;
+    opacity: 0.7;
  }
 
  h6{
@@ -105,9 +86,43 @@ color:#191A19;
 font-weight:50 ;
 text-align: center;
 margin: 5px;
-font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-weight:bolder ;
+margin-bottom: 10%;
+}
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
 }
 
+
 h5{
+  margin-top:5%;
+    font-family: 'Monoton', cursive;
+
+}
+
+h2 {
   margin-top: 10px;
+  margin-left: 90px;
+  font-family: 'arial', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 51px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 120%;
+  color: white ;
+  max-width: 405px;
+  height: 51px;
+}
+
+h4{
+  font-family: 'Monoton', cursive;
 }
