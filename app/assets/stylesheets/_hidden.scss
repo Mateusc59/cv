@@ -2,6 +2,7 @@
     width: 300px;
     height: 200px;
     margin: 10px;
+
     float: left;
     border: 10px solid #fff;
     overflow: hidden;
@@ -11,6 +12,7 @@
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
+
 .view .mask, .view .content {
     width: 300px;
     height: 200px;
@@ -222,4 +224,34 @@ border: transparent;
 .btn-warning:hover{
   background-color:#4e7ac2 ;
   color: white;
+}
+
+.grid {
+  display: grid;
+  margin-top: 3%;
+  justify-content: center;
+      height: 90vh;
+}
+
+a.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+}
+a.button1:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+a.button1{
+display:block;
+margin:0.4em auto;
+}
 }

@@ -2,37 +2,63 @@
 <div class="container">
 
 
-  <div class="view view-second">
-        <%= image_tag "ng.png", class: "img-circle" %>
-    <div class="mask"></div>
-    <div class="content">
-      <h2>Hover Style #2</h2>
-      <a class="btn btn-warning" href="tel:+0632377082"> Phone number </a>
-    </div>
-  </div>
-
-
-  <div class="view view-first">
-        <%= image_tag "ng.png", class: "img-circle" %>
-      <div class="mask">
-      <h2>Title</h2>
-      <p>Your Text</p>
-          <a href="#" class="info">Read More</a>
+<body>
+    <div class="navb">
+    <div class="nav-header">
+      <div class="nav-title">
       </div>
-  </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
 
-  <div class="view view-ninth">
-        <%= image_tag "ng.png", class: "img-circle" %>
-    <div class="mask mask-1"></div>
-    <div class="mask mask-2"></div>
-    <div class="content">
-      <h2>Hover Style #9</h2>
-      <p>Some Text</p>
-      <a href="#" class="info">Read More</a>
+    <div class="nav-links">
+      <%= link_to "Home", root_path, class: "navbut" %>
+      <%= link_to "About me", about_path, class: "navbut" %>
+      <%= link_to "Contact", contact_path, class: "navbut" %>
     </div>
   </div>
+  <body>
+
+<div class="grid">
+    <div class="view view-second">
+          <%= image_tag "ng.png", class: "img-circle" %>
+      <div class="mask"></div>
+      <div class="content">
+        <h2>Call me :</h2>
+        <a class="btn btn-warning" href="tel:+632377082"> Phone number </a>
+      </div>
+    </div>
 
 
+    <div class="view view-first">
+          <%= image_tag "ng.png", class: "img-circle" %>
+        <div class="mask">
+        <h2>Title</h2>
+        <p>Your Text</p>
+            <a href="#" class="info">Read More</a>
+        </div>
+    </div>
+
+    <div class="view view-ninth">
+          <%= image_tag "ng.png", class: "img-circle" %>
+      <div class="mask mask-1"></div>
+      <div class="mask mask-2"></div>
+      <div class="content">
+        <h2>Hover Style #9</h2>
+        <p>Some Text</p>
+        <a href="#" class="info">Read More</a>
+      </div>
+    </div>
 
 
 </div>
+
+</body>
+</html>
+
+  </div>
