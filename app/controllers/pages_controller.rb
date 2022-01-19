@@ -14,8 +14,8 @@ class PagesController < ApplicationController
     # the `geocoded` scope filters only flats with coordinates (latitude & longitude)
     @markers = @ways.geocoded.map do |way|
       {
-        lat: flat.latitude,
-        lng: flat.longitude
+        lat: way.latitude,
+        lng: way.longitude
       }
     end
   end

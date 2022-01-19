@@ -1,36 +1,4 @@
 
-
-
-<header class="header">
-<span class="cover top"></span>
-<span class="cover right"></span>
-<span class="cover left"></span>
-<span class="cover bottom"></span>
-
- <div class="colco">
-  <div class="content">
-    <div class="infowrap"></div>
-     <h1 class="heading">Contact </h1>
-      <ul>
-      <li class="phone">
-      <%= image_tag "phone.png", class: "icphone" %>
-        <a class="btn btn-warning" href="tel:+0632377082"> Phone number </a>
-      </li>
-      <li class="email">
-      <%= image_tag "mail.png", class: "mail" %>
-        <a class="btn btn-warning" href="mailto:mathewhollande@gmail.com">Email</a>
-      </li>
-      <li class="address">
-      <%= image_tag "address.png", class: "dress" %>
-        <a class="btn btn-warning" href="https://www.google.com/maps/place/Canada/@50.821079,-130.1418467,3z/data=!3m1!4b1!4m5!3m4!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!8m2!3d56.130366!4d-106.346771"> My location  </a>
-      </li>
-      </ul>
-    </div>
-  </div>
- </div>
-      <div class="col">
-        <div class="row"></div>
-
 <div class="navbcontact">
   <div class="nav-header">
     <div class="nav-title">
@@ -59,6 +27,15 @@
     <%= link_to "About me", about_path, class: "navbut" %>
     <%= link_to "Contact", contact_path, class: "navbut" %>
   </div>
-          <%= image_tag "busi.png", class: "cani" %>
-      </div>
-</header>
+
+
+<div class="main-cont">
+    <div class="portfolio">
+      <div class="portfolio-item medium one"><%= link_to 'My email', "mailto:mathewhollande@gmail.com", class: 'bouton'  %></div>
+      <div class="portfolio-item large two"><%= link_to 'Call-me', "tel:+632377082", class: 'bouton'  %></div>
+      <div class="portfolio-item medium three"><%= link_to 'I am Here', "https://goo.gl/maps/RR5Y9hZWjG3j2urK7", class: 'bouton'  %></div>
+      <div class="portfolio-item small four"><%= link_to 'Github', "https://github.com/Mateusc59", class: 'bouton'  %></div>
+      <div class="portfolio-item tall five"><%= link_to 'Portfolio', "troopl.com/mathewhollande", class: 'bouton'  %></div>
+      <div class="portfolio-item wide six"><%= link_to 'Linkedin', "https://www.linkedin.com/in/mathieu-hollande/", class: 'bouton'  %></div>
+    </div>
+  </div>
